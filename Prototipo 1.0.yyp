@@ -45,6 +45,7 @@
     {"id":{"name":"spr_background00","path":"sprites/spr_background00/spr_background00.yy",},},
     {"id":{"name":"spr_player01_idle","path":"sprites/spr_player01_idle/spr_player01_idle.yy",},},
     {"id":{"name":"obj_floor","path":"objects/obj_floor/obj_floor.yy",},},
+    {"id":{"name":"spr_character_jump","path":"sprites/spr_character_jump/spr_character_jump.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [

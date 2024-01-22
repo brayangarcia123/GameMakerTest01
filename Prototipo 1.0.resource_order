@@ -26,5 +26,6 @@
     {"name":"spr_background00","order":5,"path":"sprites/spr_background00/spr_background00.yy",},
     {"name":"spr_player01_idle","order":3,"path":"sprites/spr_player01_idle/spr_player01_idle.yy",},
     {"name":"obj_floor","order":1,"path":"objects/obj_floor/obj_floor.yy",},
+    {"name":"spr_character_jump","order":7,"path":"sprites/spr_character_jump/spr_character_jump.yy",},
   ],
 }
