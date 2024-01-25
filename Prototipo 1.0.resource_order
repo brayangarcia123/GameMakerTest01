@@ -18,8 +18,10 @@
   ],
   "ResourceOrderSettings": [
     {"name":"spr_player01_run","order":4,"path":"sprites/spr_player01_run/spr_player01_run.yy",},
+    {"name":"obj_player","order":4,"path":"objects/obj_player/obj_player.yy",},
     {"name":"spr_player01_jump","order":6,"path":"sprites/spr_player01_jump/spr_player01_jump.yy",},
     {"name":"obj_background00","order":3,"path":"objects/obj_background00/obj_background00.yy",},
+    {"name":"spr_character_dash","order":10,"path":"sprites/spr_character_dash/spr_character_dash.yy",},
     {"name":"spr_character_idle","order":2,"path":"sprites/spr_character_idle/spr_character_idle.yy",},
     {"name":"spr_floor","order":1,"path":"sprites/spr_floor/spr_floor.yy",},
     {"name":"obj_character_idle","order":2,"path":"objects/obj_character_idle/obj_character_idle.yy",},
@@ -27,5 +29,7 @@
     {"name":"spr_player01_idle","order":3,"path":"sprites/spr_player01_idle/spr_player01_idle.yy",},
     {"name":"obj_floor","order":1,"path":"objects/obj_floor/obj_floor.yy",},
     {"name":"spr_character_jump","order":7,"path":"sprites/spr_character_jump/spr_character_jump.yy",},
+    {"name":"spr_background","order":9,"path":"sprites/spr_background/spr_background.yy",},
+    {"name":"spr_character_fall","order":8,"path":"sprites/spr_character_fall/spr_character_fall.yy",},
   ],
 }

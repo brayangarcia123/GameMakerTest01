@@ -1,8 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_floor",
-  "eventList": [],
+  "name": "obj_player",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -24,10 +27,10 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": true,
+  "solid": false,
   "spriteId": {
-    "name": "spr_floor",
-    "path": "sprites/spr_floor/spr_floor.yy",
+    "name": "spr_character_idle",
+    "path": "sprites/spr_character_idle/spr_character_idle.yy",
   },
   "spriteMaskId": null,
   "visible": true,
