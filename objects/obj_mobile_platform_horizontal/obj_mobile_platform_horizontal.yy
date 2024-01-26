@@ -1,9 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_floor",
+  "name": "obj_mobile_platform_horizontal",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -11,7 +12,10 @@
     "name": "Objetos",
     "path": "folders/Objetos.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_floor",
+    "path": "objects/obj_floor/obj_floor.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -26,10 +30,10 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": true,
+  "solid": false,
   "spriteId": {
-    "name": "spr_floor",
-    "path": "sprites/spr_floor/spr_floor.yy",
+    "name": "spr_mobile_platform_horizontal",
+    "path": "sprites/spr_mobile_platform_horizontal/spr_mobile_platform_horizontal.yy",
   },
   "spriteMaskId": null,
   "visible": true,

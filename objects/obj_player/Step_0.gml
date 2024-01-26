@@ -8,7 +8,7 @@ if(hor != 0){
 	}
 	image_xscale = hor;
 	sprite_index = spr_character_run;
-}else{
+}else if(vspeed == 0){
 	sprite_index = spr_character_idle;	
 }
 

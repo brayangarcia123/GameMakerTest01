@@ -1,15 +1,21 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_background00",
-  "eventList": [],
+  "name": "obj_mobile_platform_vertical",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
     "name": "Objetos",
     "path": "folders/Objetos.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_floor",
+    "path": "objects/obj_floor/obj_floor.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -26,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_background00",
-    "path": "sprites/spr_background00/spr_background00.yy",
+    "name": "spr_mobile_platform_vertical",
+    "path": "sprites/spr_mobile_platform_vertical/spr_mobile_platform_vertical.yy",
   },
   "spriteMaskId": null,
   "visible": true,
