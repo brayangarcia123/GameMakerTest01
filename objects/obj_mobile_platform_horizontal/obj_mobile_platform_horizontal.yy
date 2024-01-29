@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objetos",
-    "path": "folders/Objetos.yy",
+    "name": "Platforms",
+    "path": "folders/Objetos/Platforms.yy",
   },
   "parentObjectId": {
     "name": "obj_floor",
