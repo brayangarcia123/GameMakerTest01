@@ -1,31 +1,14 @@
 //Gravedad
-if(!collision_rectangle(x-8,y,x+8,y+1,obj_floor,false,false)){
-	gravity = 0.3;	
-	sprite_index = spr_character_jump
-}
+script_check_gravity(width);
 
 if(vspeed>0){
-	var ground = collision_rectangle(x-8,y,x+8,y+vspeed,obj_floor,false,false);
-	if(ground && y <= ground.y+3){
-		y=ground.y;
-		vspeed = 0;
-		gravity = 0;
-	}
+	script_check_ground_collision(width)
 } else if(vspeed<0){
-	var ceiling = collision_rectangle(x-8,y-67,x+8,y-67+vspeed,obj_floor,false,false);
-	if(ceiling && ceiling.oneSided == false){
-		y=ceiling.y + ceiling.sprite_height +67;
-		vspeed = 0;
-	}
+	script_check_celling_collision(width, height)
 }
 
-//Moverse con la plataforma móvil
-var platform = collision_rectangle(x-6,y,x+6,y+1, obj_mobile_platform_horizontal, true, true);
-if(platform){
-	x += platform.hspeed;
-}
+//Moverse con la plataforma móvil en horizontal
+script_check_platform_horizontal_collision();
 
-var platform2 = collision_rectangle(x-6,y,x+6,y+1, obj_mobile_platform_vertical, true, true);
-if(platform2){
-	y += platform2.vspeed;
-}
+//Moverse con la plataforma móvil en vertical
+script_check_platform_vertical_collision();
