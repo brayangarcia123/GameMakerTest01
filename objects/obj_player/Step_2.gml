@@ -8,7 +8,9 @@ if(vspeed>0){
 }
 
 //Moverse con la plataforma móvil en horizontal
-script_check_platform_horizontal_collision();
+script_check_platform_horizontal_collision(width);
 
 //Moverse con la plataforma móvil en vertical
-script_check_platform_vertical_collision();
+script_check_platform_vertical_collision(width);
+
+script_update_sprite();

@@ -14,6 +14,7 @@
     {"name":"Salas","order":10,"path":"folders/Salas.yy",},
     {"name":"Levels","order":1,"path":"folders/Salas/Levels.yy",},
     {"name":"Scripts","order":5,"path":"folders/Scripts.yy",},
+    {"name":"Characters","order":1,"path":"folders/Scripts/Characters.yy",},
     {"name":"Secuencias","order":11,"path":"folders/Secuencias.yy",},
     {"name":"Shaders","order":6,"path":"folders/Shaders.yy",},
     {"name":"Sonidos","order":3,"path":"folders/Sonidos.yy",},
@@ -21,9 +22,9 @@
     {"name":"Background","order":14,"path":"folders/Sprites/Background.yy",},
     {"name":"Platforms","order":13,"path":"folders/Sprites/Platforms.yy",},
     {"name":"Player","order":12,"path":"folders/Sprites/Player.yy",},
-    {"name":"Characters","order":1,"path":"folders/Scripts/Characters.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"script_update_sprite","order":8,"path":"scripts/script_update_sprite/script_update_sprite.yy",},
     {"name":"spr_ramp","order":3,"path":"sprites/spr_ramp/spr_ramp.yy",},
     {"name":"spr_player01_run","order":7,"path":"sprites/spr_player01_run/spr_player01_run.yy",},
     {"name":"script_check_platform_vertical_collision","order":5,"path":"scripts/script_check_platform_vertical_collision/script_check_platform_vertical_collision.yy",},
@@ -45,6 +46,7 @@
     {"name":"spr_player01_idle","order":5,"path":"sprites/spr_player01_idle/spr_player01_idle.yy",},
     {"name":"obj_mobile_platform_horizontal","order":1,"path":"objects/obj_mobile_platform_horizontal/obj_mobile_platform_horizontal.yy",},
     {"name":"spr_character_jump","order":3,"path":"sprites/spr_character_jump/spr_character_jump.yy",},
+    {"name":"script_player_dash","order":7,"path":"scripts/script_player_dash/script_player_dash.yy",},
     {"name":"spr_character_fall","order":1,"path":"sprites/spr_character_fall/spr_character_fall.yy",},
   ],
 }
