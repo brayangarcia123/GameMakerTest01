@@ -1,13 +1,16 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_lamp",
-  "eventList": [],
+  "name": "obj_ingame_handler",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":27,"eventType":9,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Utils",
-    "path": "folders/Objetos/Utils.yy",
+    "name": "InGame",
+    "path": "folders/Objetos/UI/Menu/InGame.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -21,19 +24,11 @@
   "physicsRestitution": 0.1,
   "physicsSensor": false,
   "physicsShape": 1,
-  "physicsShapePoints": [
-    {"x":0.0,"y":0.0,},
-    {"x":234.0,"y":0.0,},
-    {"x":234.0,"y":304.0,},
-    {"x":0.0,"y":304.0,},
-  ],
+  "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_lamp",
-    "path": "sprites/spr_lamp/spr_lamp.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }
