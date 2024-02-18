@@ -1,5 +1,11 @@
 switch(state){
 	case "idle":
+		//Salto en el muro
+		if (is_wall_jumping != 0) {
+			script_movement(sign(is_wall_jumping), 5, width, height)
+			image_xscale = sign(is_wall_jumping)
+			exit
+		}
 		//Movimiento horizontal
 		var hor = keyboard_check(vk_right) - keyboard_check(vk_left);
 

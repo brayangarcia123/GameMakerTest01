@@ -22,6 +22,8 @@
     {"name":"Test","order":3,"path":"folders/Salas/Test.yy",},
     {"name":"Scripts","order":5,"path":"folders/Scripts.yy",},
     {"name":"Characters","order":1,"path":"folders/Scripts/Characters.yy",},
+    {"name":"UI","order":2,"path":"folders/Scripts/UI.yy",},
+    {"name":"InGame","order":1,"path":"folders/Scripts/UI/InGame.yy",},
     {"name":"Secuencias","order":11,"path":"folders/Secuencias.yy",},
     {"name":"Shaders","order":6,"path":"folders/Shaders.yy",},
     {"name":"Sonidos","order":3,"path":"folders/Sonidos.yy",},
