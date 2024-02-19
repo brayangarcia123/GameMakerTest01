@@ -1,6 +1,6 @@
 showing_ingame_menu = true
-ingame_menu_pos_x = display_get_width()/2-180
-ingame_menu_pos_y = display_get_height()/2-158
+ingame_menu_pos_x = camera_get_view_x(view_camera[0]) + display_get_width()/2-180
+ingame_menu_pos_y = camera_get_view_y(view_camera[0]) + display_get_height()/2-158
 offset = 20
 
 instance_ingame = instance_create_depth(ingame_menu_pos_x, ingame_menu_pos_y, -1, obj_ingame)

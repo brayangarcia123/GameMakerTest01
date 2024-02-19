@@ -30,11 +30,14 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
+  "solid": true,
   "spriteId": {
     "name": "spr_character_idle",
     "path": "sprites/spr_character_idle/spr_character_idle.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_character_mask",
+    "path": "sprites/spr_character_mask/spr_character_mask.yy",
+  },
   "visible": true,
 }

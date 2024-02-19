@@ -1,5 +1,5 @@
 //45x67
-width = 10;
+width = 19;
 height = 67;
 
 state = "idle";

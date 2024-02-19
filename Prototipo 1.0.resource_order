@@ -78,5 +78,6 @@
     {"name":"obj_ingame_handler","order":1,"path":"objects/obj_ingame_handler/obj_ingame_handler.yy",},
     {"name":"spr_character_fall","order":1,"path":"sprites/spr_character_fall/spr_character_fall.yy",},
     {"name":"spr_menu_settings","order":1,"path":"sprites/spr_menu_settings/spr_menu_settings.yy",},
+    {"name":"spr_character_mask","order":8,"path":"sprites/spr_character_mask/spr_character_mask.yy",},
   ],
 }
