@@ -4,4 +4,5 @@ function script_check_celling_collision(width, height){
 		y=ceiling.y + ceiling.sprite_height +height;
 		vspeed = 0;
 	}
+	
 }
