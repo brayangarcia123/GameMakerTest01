@@ -1,2 +1,0 @@
-oneSided = true;
-solid = false;
