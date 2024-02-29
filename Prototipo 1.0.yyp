@@ -108,14 +108,13 @@
     {"id":{"name":"script_player_dash","path":"scripts/script_player_dash/script_player_dash.yy",},},
     {"id":{"name":"spr_ingame_menu","path":"sprites/spr_ingame_menu/spr_ingame_menu.yy",},},
     {"id":{"name":"obj_ingame_handler","path":"objects/obj_ingame_handler/obj_ingame_handler.yy",},},
-    {"id":{"name":"spr_character_fall","path":"sprites/spr_character_fall/spr_character_fall.yy",},},
     {"id":{"name":"spr_menu_settings","path":"sprites/spr_menu_settings/spr_menu_settings.yy",},},
     {"id":{"name":"spr_character_mask","path":"sprites/spr_character_mask/spr_character_mask.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"rm_main_menu","path":"rooms/rm_main_menu/rm_main_menu.yy",},},
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
