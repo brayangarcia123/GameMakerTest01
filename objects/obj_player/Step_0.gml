@@ -10,7 +10,7 @@ switch(state){
 		var hor = keyboard_check(vk_right) - keyboard_check(vk_left);
 
 		if(hor != 0){
-			script_movement(sign(hor), 5, width, height);
+			script_movement(sign(hor), 7, width, height);
 			sprite_index = spr_character_run;
 		}else if(vspeed == 0){
 			sprite_index = spr_character_idle;	

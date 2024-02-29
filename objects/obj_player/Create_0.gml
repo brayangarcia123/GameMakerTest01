@@ -1,6 +1,6 @@
 //45x67
-width = 19;
-height = 67;
+width = 20;
+height = 95;
 
 state = "idle";
 dashingfrecuency = 0;
