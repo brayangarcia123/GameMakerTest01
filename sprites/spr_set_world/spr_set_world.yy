@@ -2,8 +2,8 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_set_world",
-  "bbox_bottom": 1151,
-  "bbox_left": 128,
+  "bbox_bottom": 383,
+  "bbox_left": 118,
   "bbox_right": 1535,
   "bbox_top": 0,
   "bboxMode": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f97bb799-483c-4052-ae2a-095a3a97bff8",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f59795f9-376e-46ce-bb14-cad2c829bcf6",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 1152,
+  "height": 384,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"342ed278-5912-4019-b888-5f5222a1b9c6","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ac5d217c-7d78-4cd1-a74a-c7de95142cef","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f97bb799-483c-4052-ae2a-095a3a97bff8","path":"sprites/spr_set_world/spr_set_world.yy",},},},"Disabled":false,"id":"a91f9f9f-eae7-4ab9-b295-cf1c6fac91ca","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f59795f9-376e-46ce-bb14-cad2c829bcf6","path":"sprites/spr_set_world/spr_set_world.yy",},},},"Disabled":false,"id":"aa3728d1-983d-4aed-9928-4795de2cc523","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
