@@ -1,8 +1,8 @@
-//45x67
-width = 20;
+action = "Idle";
+state = "idle";
+
+width = 19;
 height = 95;
 
-state = "idle";
+is_wall_jumping = 0;
 dashingfrecuency = 0;
-
-is_wall_jumping = 0

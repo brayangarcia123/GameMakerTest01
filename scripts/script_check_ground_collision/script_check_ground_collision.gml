@@ -9,7 +9,6 @@ function script_check_ground_collision(width){
 			for(var i=0; i<= ground.sprite_height; i++){
 				var line_y = ground.y + ground.sprite_height -1 -i;
 				
-				//width cambiado por 8
 				if(!collision_rectangle(x-width,line_y,x+width,line_y,ground,true,false)){
 					y=line_y + 1;
 					vspeed = 0;

@@ -3,6 +3,5 @@ function script_check_celling_collision(width, height){
 	if(ceiling && ceiling.oneSided == false){
 		y=ceiling.y + ceiling.sprite_height +height;
 		vspeed = 0;
-	}
-	
+	}	
 }

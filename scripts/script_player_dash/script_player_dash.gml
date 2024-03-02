@@ -1,8 +1,8 @@
 function script_player_dash(){
-	dashingfrecuency -= 1;
+	dashingfrecuency -= 5;
 	if(keyboard_check_pressed(ord("D")) && dashingfrecuency <= 0){
 		state = "dash";
 		alarm[0] = room_speed / 3;
-		dashingfrecuency = 10;
+		dashingfrecuency = 20;
 	}
 }
