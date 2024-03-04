@@ -22,6 +22,7 @@
     {"name":"Test","order":3,"path":"folders/Salas/Test.yy",},
     {"name":"Scripts","order":5,"path":"folders/Scripts.yy",},
     {"name":"Characters","order":1,"path":"folders/Scripts/Characters.yy",},
+    {"name":"Player","order":3,"path":"folders/Scripts/Player.yy",},
     {"name":"UI","order":2,"path":"folders/Scripts/UI.yy",},
     {"name":"InGame","order":1,"path":"folders/Scripts/UI/InGame.yy",},
     {"name":"Secuencias","order":11,"path":"folders/Secuencias.yy",},
@@ -38,7 +39,6 @@
     {"name":"Settings","order":4,"path":"folders/Sprites/UI/Menu/Settings.yy",},
     {"name":"Utils","order":15,"path":"folders/Sprites/Utils.yy",},
     {"name":"TileSets","order":16,"path":"folders/TileSets.yy",},
-    {"name":"Player","order":3,"path":"folders/Scripts/Player.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"script_update_sprite","order":8,"path":"scripts/script_update_sprite/script_update_sprite.yy",},
