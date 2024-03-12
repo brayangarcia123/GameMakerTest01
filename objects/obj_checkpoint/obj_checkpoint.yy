@@ -1,13 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_star",
-  "eventList": [],
+  "name": "obj_checkpoint",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Platforms",
-    "path": "folders/Objetos/Platforms.yy",
+    "name": "Utils",
+    "path": "folders/Objetos/Utils.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -26,9 +28,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_star",
-    "path": "sprites/spr_star/spr_star.yy",
+    "name": "spr_ckeckpoint",
+    "path": "sprites/spr_ckeckpoint/spr_ckeckpoint.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }
