@@ -6,9 +6,9 @@ switch(state){
 		break;
 		
 	case "dash":
+		//gravity = 0;
+		vspeed = 0;
 		script_player_jump();
 		script_movement(sign(image_xscale), 15, width, height);
-		//gravity = 0;
-		//vspeed = 0;
 		break;
 }

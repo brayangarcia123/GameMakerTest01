@@ -1,8 +1,15 @@
 // Los recursos de Script han cambiado para la v2.3.0 Consulta
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 para más información
 function scr_camera_target(){
-camW=1600;
-camH=900;
+	
+camW = 1280
+camH = 720
+
+if (window_get_fullscreen()){
+	camW=1600
+	camH=900
+}
+
 scaleResolution=1;
 camSpeed=0.1;
 

@@ -1,7 +1,9 @@
-image_xscale = 1
-image_yscale = 1
-image_angle = 0
-image_alpha = 1
 
 windowed_width = 1280
 windowes_height = 720
+
+fullscreen_width = 1600
+fullscreen_height = 900
+
+script_setup_camera_resolution(fullscreen_width, fullscreen_height)
+window_set_fullscreen(true)

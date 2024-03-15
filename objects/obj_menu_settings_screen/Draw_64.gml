@@ -1,4 +1,4 @@
-draw_self()
+//draw_self()
 var _texto = "indefinido"
 if window_get_fullscreen() {
 	_texto = "Completa"	
