@@ -5,7 +5,7 @@ if (plataforma_rota) {
     tiempo_destruccion += delta_time;
     
     // falta comprobar los valores
-    if (tiempo_destruccion >= 500000) {
+    if (tiempo_destruccion >= 700000) {
         instance_destroy();
         // Puedes agregar más código según sea necesario para manejar la destrucción de la plataforma.
     }
