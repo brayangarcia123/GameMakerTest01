@@ -14,9 +14,7 @@ camX=lerp(camX,tarX,camSpeed);
 camY=lerp(camY,tarY,camSpeed);
 
 camera_set_view_pos(mainCam,camX,camY);
-
 layer_x("Background",camX*0.8);
-layer_y("Background",camY*0.8);
-
+//layer_y("Background",camY*0.8);
 
 
