@@ -148,11 +148,9 @@
     {"id":{"name":"obj_mimic","path":"objects/obj_mimic/obj_mimic.yy",},},
     {"id":{"name":"spr_character_mask","path":"sprites/spr_character_mask/spr_character_mask.yy",},},
     {"id":{"name":"spr_menu_vsync","path":"sprites/spr_menu_vsync/spr_menu_vsync.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_main_menu","path":"rooms/rm_main_menu/rm_main_menu.yy",},},
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"rm_credits","path":"rooms/rm_credits/rm_credits.yy",},},
   ],
   "templateType": "game",
