@@ -3,11 +3,4 @@ function script_check_platform_horizontal_collision(width){
 	if(platform && vspeed == 0){
 		x += platform.hspeed;
 	}
-	else if (platform){
-		var _left_collision = x+width>platform.x && hspeed>0 && y+sprite_height>platform.y
-		var _right_collision = x-width<platform.x+platform.sprite_width && hspeed<0 && y+sprite_height>platform.y
-		if(_left_collision || _right_collision){
-			hspeed = 0;
-		}
-	}
 }

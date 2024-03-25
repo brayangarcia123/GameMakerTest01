@@ -1,1 +1,0 @@
-script_load_credits()
