@@ -1,21 +1,18 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_mobile_platform_horizontal",
+  "name": "obj_credits_handler",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Platforms",
-    "path": "folders/Objetos/Platforms.yy",
+    "name": "Credits",
+    "path": "folders/Objetos/UI/Menu/Credits.yy",
   },
-  "parentObjectId": {
-    "name": "obj_floor",
-    "path": "objects/obj_floor/obj_floor.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -30,11 +27,8 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": true,
-  "spriteId": {
-    "name": "spr_mobile_platform_horizontal",
-    "path": "sprites/spr_mobile_platform_horizontal/spr_mobile_platform_horizontal.yy",
-  },
+  "solid": false,
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }
