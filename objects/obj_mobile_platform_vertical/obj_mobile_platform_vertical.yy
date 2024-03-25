@@ -30,7 +30,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
+  "solid": true,
   "spriteId": {
     "name": "spr_mobile_platform_vertical",
     "path": "sprites/spr_mobile_platform_vertical/spr_mobile_platform_vertical.yy",
